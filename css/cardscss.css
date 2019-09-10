@@ -1,0 +1,47 @@
+.one,
+.two,
+.three,
+.four,
+.five {
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
+    position: absolute;
+}
+
+.one {
+    background-color: yellow;
+    z-index: 1;
+}
+
+.two {
+    margin: 40px;
+    background-color: cornsilk;
+    z-index: 2;
+}
+
+.three {
+    margin: 80px;
+    background-color: orange;
+    z-index: 3;
+}
+
+.four {
+    margin: 120px;
+    background-color: red;
+    z-index: 4;
+}
+
+.five {
+    margin: 160px;
+    background-color: green;
+    z-index: 5;
+}
+
+.one:hover,
+.two:hover,
+.three:hover,
+.four:hover,
+.five:hover {
+    z-index: 6;
+}
