@@ -23,6 +23,13 @@ header, footer {
     color: white;
 }
 
+header:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
 header ul {
     list-style-image: url('../img/check-icon.png');
     text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
