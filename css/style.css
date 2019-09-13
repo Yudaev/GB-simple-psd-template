@@ -101,13 +101,15 @@ h2 {
 
 .screen {
     padding-bottom: 20px;
-}
-
-.screen div {
     display: flex;
     justify-content: space-between;
     align-content: space-between;
     flex-wrap: wrap;
+}
+
+.screen h2 {
+    width: 100%;
+    margin-bottom: 34px;
 }
 
 .screen figcaption h3, .screen figcaption p {
