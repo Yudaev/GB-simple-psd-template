@@ -233,7 +233,8 @@ h2 {
     padding: 18px;
 }
 
-.price-plan p {
+.price-plan span {
+    display: block;
     background-color: white;
     margin: 2px;
     font-size: 40px;
